@@ -1,5 +1,5 @@
+import { Logger } from "../../logs/logger";
 import { IUser } from "../@types/@types";
-import { Logger } from "../logs/logger";
 import { productService } from "../services/product-service";
 import { usersService } from "../services/users-service";
 import { products, users } from "./initial-data";
@@ -45,16 +45,3 @@ const initDB = async () => {
 };
 
 export default initDB;
-
-
-
-
-
-
-
-
-
-
-
-
-

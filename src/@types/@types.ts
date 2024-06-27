@@ -55,7 +55,7 @@ export type IProductInput = {
     ages: number[];
     web: string;
     image: IImage;
-    category: "boys" | "girls";
+    category: string;
     quantity: number;
 };
 
